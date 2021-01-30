@@ -7,17 +7,17 @@ import photo9 from "./images/photo9.jpg";
 function Type() {
   return (
     <div className="Type">
-      <div class="row third-row">
-        <div class="col-md-6 col-md-offset-3">
+      <div className="row third-row">
+        <div className="col-md-6 col-md-offset-3">
           <h2>Pizza Types</h2>
         </div>
       </div>
 
-      <div class="row fourth-row">
-        <div class="col-sm-6 col-md-3">
-          <div class="thumbnail">
-            <img src={photo5} alt="pizza" class="img-responsive" />
-            <div class="caption">
+      <div className="row fourth-row">
+        <div className="col-sm-6 col-md-3">
+          <div className="thumbnail">
+            <img src={photo5} alt="pizza" className="img-responsive" />
+            <div className="caption">
               <h3>Vegetarian Pizza</h3>
               <p>
                 Lorem ipsum dolor sit amet consectet ur adipisicing elit.
@@ -29,10 +29,10 @@ function Type() {
           </div>
         </div>
 
-        <div class="col-sm-6 col-md-3">
-          <div class="thumbnail">
-            <img src={photo6} alt="pizza" class="img-responsive" />
-            <div class="caption">
+        <div className="col-sm-6 col-md-3">
+          <div className="thumbnail">
+            <img src={photo6} alt="pizza" className="img-responsive" />
+            <div className="caption">
               <h3>Pepperoni Pizza</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -44,10 +44,10 @@ function Type() {
           </div>
         </div>
 
-        <div class="col-sm-6 col-md-3">
-          <div class="thumbnail">
-            <img src={photo7} alt="pizza" class="img-responsive" />
-            <div class="caption">
+        <div className="col-sm-6 col-md-3">
+          <div className="thumbnail">
+            <img src={photo7} alt="pizza" className="img-responsive" />
+            <div className="caption">
               <h3>Cheese Pizza</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -59,10 +59,10 @@ function Type() {
           </div>
         </div>
 
-        <div class="col-sm-6 col-md-3">
-          <div class="thumbnail">
-            <img src={photo9} alt="pizza" class="img-four" />
-            <div class="caption">
+        <div className="col-sm-6 col-md-3">
+          <div className="thumbnail">
+            <img src={photo9} alt="pizza" className="img-four" />
+            <div className="caption">
               <h3>Boosu Pizza</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.

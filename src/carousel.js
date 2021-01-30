@@ -5,18 +5,18 @@ import photo2 from "./images/photo2.jpg";
 function Carousel() {
   return (
     <div className="Carousel">
-      <div class="container-fluid">
-        <div class="row">
+      <div className="container-fluid">
+        <div className="row">
           <div
             id="carousel-example-generic"
-            class="carousel slide"
+            className="carousel slide"
             data-ride="carousel"
           >
-            <ol class="carousel-indicators">
+            <ol className="carousel-indicators">
               <li
                 data-target="#carousel-example-generic"
                 data-slide-to="0"
-                class="active"
+                className="active"
               ></li>
               <li
                 data-target="#carousel-example-generic"
@@ -28,39 +28,39 @@ function Carousel() {
               ></li>
             </ol>
 
-            <div class="carousel-inner carouselimg" role="listbox">
-              <div class="item active">
+            <div className="carousel-inner carouselimg" role="listbox">
+              <div className="item active">
                 <img src={photo1} alt="pizza" />
               </div>
-              <div class="item">
+              <div className="item">
                 <img src={photo2} alt="pizza" />
               </div>
               ...
             </div>
 
             <a
-              class="left carousel-control"
+              className="left carousel-control"
               href="#carousel-example-generic"
               role="button"
               data-slide="prev"
             >
               <span
-                class="glyphicon glyphicon-chevron-left"
+                className="glyphicon glyphicon-chevron-left"
                 aria-hidden="true"
               ></span>
-              <span class="sr-only">Previous</span>
+              <span className="sr-only">Previous</span>
             </a>
             <a
-              class="right carousel-control"
+              className="right carousel-control"
               href="#carousel-example-generic"
               role="button"
               data-slide="next"
             >
               <span
-                class="glyphicon glyphicon-chevron-right"
+                className="glyphicon glyphicon-chevron-right"
                 aria-hidden="true"
               ></span>
-              <span class="sr-only">Next</span>
+              <span className="sr-only">Next</span>
             </a>
           </div>
         </div>
